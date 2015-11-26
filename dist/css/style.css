@@ -500,7 +500,7 @@ body.modal-open,
 	-ms-transition: background-color 0.3s ease;
 	transition: background-color 0.3s ease;
 	display: block;
-	padding: 21px 18px 20px 15px;
+	padding: 16px 18px 15px 15px;
 	color: #8ba7ca;
 	font-size: 12px;
 	white-space: nowrap;
@@ -6232,11 +6232,8 @@ ul.timeline li .note .form-control{
 .task-list{margin-top: 20px; }
 .task-list li{font-size: 15px; padding: 10px 0; }
 .task-list li label{font-weight: normal; }
-tr:hover .row-actions {visibility: visible }
-blockquote:hover .row-actions{visibility: visible;}
 
 .row-actions{
-	visibility: hidden;
 	color: #999;
 	letter-spacing: 1px;
 	text-transform: uppercase;
@@ -6340,4 +6337,18 @@ blockquote:hover .row-actions{visibility: visible;}
 	transform-origin: 50% 4px;
 }
 
-.fa-bell.ring{color: #ff8c00; }
+.fa-bell.ring, .fa-warning.alarm{color: #ff8c00; }
+
+@-webkit-keyframes flash {
+	0%,100%,50% {opacity: 1 }
+	25%,75% {opacity: 0 }
+}
+@keyframes flash {
+	0%,100%,50% {opacity: 1 }
+	25%,75% {opacity: 0 }
+}
+
+.fa-warning.flash{
+	-webkit-animation: flash 2s ease infinite;
+	animation: flash 2s ease infinite;
+}

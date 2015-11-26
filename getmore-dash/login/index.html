@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Login</title>
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link href="http://fonts.googleapis.com/css?family=Lato:400" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+</head>
+<style>
+	* {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+	*:before, *:after {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+	body{font-family: "Lato","Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 16px;line-height: 1.2; font-weight: 400; background: #eef1f7 url('images/cubes.png') repeat;}
+	.quote{position: absolute; bottom: 20px; right: 20px;}
+	.container{display: table; width: 100%; position: absolute; height: 100%;}
+	.access-box{width: 350px; left: 50%; top: 50%; position: absolute; margin-top: -295px; margin-left: -175px;}
+	.access-form{background: #fff; padding: 30px; border-radius: 5px;}
+	.access-form p{text-align: center; margin: 20px 0 40px 0;}
+	input{display: block; width: 100%; font-family: "Lato","Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 16px; padding:15px; margin-bottom: 10px; border: 2px solid rgb(215, 215, 215); border-radius: 3px; color: #424242;}
+	input:focus{outline: none; background: #fffde2;border-color: #2598f9;}
+	button{
+		letter-spacing: 1px; color: #fff; width: 100%; background: #2b8dc5; text-transform: uppercase; display: inline-block; padding: 15px; margin-bottom: 0; font-family: "Lato","Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 400; line-height: 1.42857143; text-align: center; white-space: nowrap; vertical-align: middle; cursor: pointer; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; background-image: none; border: 1px solid transparent; border-radius: 4px; }
+		button:hover, button:focus{outline: none; background: #2a82b4; }
+		input,button{-webkit-transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -ms-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out; transition: all 0.3s ease-out; }
+		a{text-align: center; color: #2b8dc5; text-decoration: none;}
+		.forgot{margin: 20px 0 0 0; text-align: center;}
+		</style>
+		<body>
+			<div class="container">
+				<div class="access-box">
+					<div class="access-form">
+						<p><img src="images/getmore.png" alt=""> </p>
+						<form action="">
+							<input type="email" placeholder="Email" autofocus>
+							<input type="password" placeholder="Password">
+							<button type="submit">Login</button>
+						</form>
+						<div class="forgot">
+							<a href="">Forgot Password?</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="quote"><img src="images/steve-quote.png" alt=""></div>
+		</body>
+		</html>
+

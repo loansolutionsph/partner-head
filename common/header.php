@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
   <meta name="author" content="">
-  <link rel="shortcut icon" href="images/favicon.ico">
+  <link rel="shortcut icon" href="images/favicon.png">
   <title>HO - Loansolutions</title>
   <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>
   <!-- <link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'> -->
@@ -36,7 +36,7 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <!-- bounce bubble-ctr -->
-           <!--  <li><a href="tasks.php"><span class="pull-right"></span> <i class="fa fa-bars"></i> Reminders</a></li> -->
+            <!--  <li><a href="tasks.php"><span class="pull-right"></span> <i class="fa fa-bars"></i> Reminders</a></li> -->
           </ul>
           <ul class="nav navbar-nav navbar-right">
 
@@ -50,36 +50,37 @@
             </li>
           </ul>
           <ul class="nav navbar-nav not-nav pull-right ">
+            <li class="button"> <a href=""><i class="fa fa-warning alarm"></i> <span class="bubble">3</span></a> </li>
             <li class="button dropdown">
-              <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bell ring"></i> <span class="bubble">65</span></a>
-              <ul class="dropdown-menu messages">
-                <li>
-                  <div class="nano nscroller">
-                    <div class="content">
-                      <ul>
-                        <li>
-                          <a href="#"> <span class="date pull-right">13 Sept.</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint et, voluptatum recusandae? </a>
-                        </li>
-                        <li>
-                         <a href="#"> <span class="date pull-right">20 Oct.</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore doloremque ea iure.</a>
-                       </li>
-                       <li>
-                         <a href="#"> <span class="date pull-right">2 Nov.</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, reprehenderit nihil suscipit.</a>
-                       </li>
-                       <li>
-                         <a href="#"> <span class="date pull-right">2 Nov.</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa distinctio quasi libero, rem magni rerum?</a>
-                       </li>
-                       <li>
-                        <a href="#"> <span class="date pull-right">2 Nov.</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, earum nam! Tempora, molestiae voluptates sed!</a>
+            <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bell ring"></i> <span class="bubble">65</span></a>
+            <ul class="dropdown-menu messages">
+              <li>
+                <div class="nano nscroller">
+                  <div class="content">
+                    <ul>
+                      <li>
+                        <a href="#"> <span class="date pull-right">13 Sept.</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint et, voluptatum recusandae? </a>
                       </li>
-                    </ul>
-                  </div>
+                      <li>
+                       <a href="#"> <span class="date pull-right">20 Oct.</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore doloremque ea iure.</a>
+                     </li>
+                     <li>
+                       <a href="#"> <span class="date pull-right">2 Nov.</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, reprehenderit nihil suscipit.</a>
+                     </li>
+                     <li>
+                       <a href="#"> <span class="date pull-right">2 Nov.</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa distinctio quasi libero, rem magni rerum?</a>
+                     </li>
+                     <li>
+                      <a href="#"> <span class="date pull-right">2 Nov.</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, earum nam! Tempora, molestiae voluptates sed!</a>
+                    </li>
+                  </ul>
                 </div>
-                <ul class="foot"><li><a href="notification.php">View all notifications </a></li></ul>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </div><!--/.nav-collapse animate-collapse -->
-    </div>
+              </div>
+              <ul class="foot"><li><a href="notification.php">View all notifications </a></li></ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div><!--/.nav-collapse animate-collapse -->
   </div>
+</div>

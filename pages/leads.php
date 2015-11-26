@@ -1,7 +1,7 @@
 <div class="container-fluid" id="pcont">
 	<div class="message">
 		<div class="head">
-			<h3>Leads <!-- <a href="add-filter.php" class="btn btn-default btn-rad btn-sm">Add New</a> --></h3>
+			<h3>Mother List</h3>
 			<ul class="status-list list-unstyled list-inline">
 				<li class="stat-all active"><a href="leads.php">All <span class="text-muted">(1,552)</span> </a></li>
 				<li class="stat-all"><a href="booked-leads.php">Booked <span class="text-muted">(57,924)</span></a></li>
